@@ -33,7 +33,7 @@ class TestCalculadora(unittest.TestCase):
         self.assertAlmostEqual(coseno(0), 1)
 
     def test_tangente(self):
-        self.assertAlmostEqual(tangente(0), 0)
+        self.assertAlmostEqual(math.pi / 4), 1)
 
     def test_arco_seno(self):
         self.assertAlmostEqual(arco_seno(1), math.pi / 2)
